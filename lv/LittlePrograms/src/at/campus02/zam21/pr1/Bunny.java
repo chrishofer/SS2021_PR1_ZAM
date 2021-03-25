@@ -29,7 +29,8 @@ public class Bunny {
     }
 
     public static void jumpStatic(double height){
-        System.out.println(name + "jumps " + height);
+        // cannot access non static member name in static method
+        //System.out.println(name + "jumps " + height);
     }
     public void jump(double height){
         // in instance method i can access and use instance attributes
